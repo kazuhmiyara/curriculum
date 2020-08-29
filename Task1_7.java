@@ -43,7 +43,7 @@ public class Task1_7 {
         *
         */
 
-        	for (int y = 1; y <= 10; y++) {
+        	for (int y = 1; y <= 9; y++) {
         		System.out.print(y + "||");
         		for (int a = 1; a <= 9; a++) {
         		System.out.print(a*y + "|");
@@ -51,12 +51,6 @@ public class Task1_7 {
         		System.out.println();
         	}
 
-        	for (int y = 1; y <= 10; y++) {
-        		System.out.println(y + "||");
-        		for(int s = 1; s <= 9; s++)
-        		System.out.print(y*s + "|");
-
-        	}
 
     }
 }
